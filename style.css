@@ -1,0 +1,338 @@
+.container-xl {
+    height:100%;
+}
+/*background*/
+
+.bg-1 {
+    background-color: #636363;
+    height:100vh;
+}
+
+.bg-2 {
+    background-image: url(images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-3 {
+    background-image: url(images/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+
+.bg-4 {
+    background-color: #f6f6f6;
+}
+
+
+/*Navbar*/
+#button {
+    background-color: transparent;
+    border-color:transparent;
+}
+
+.navbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    position: absolute;
+    top: -1rem;
+    right: 5rem;
+    width: max-content;
+    z-index: 9000;
+}
+
+.navbar-nav .nav-link {
+    margin: 1rem;
+}
+.nn{
+    z-index: 10000;
+}
+
+/* header*/
+
+.header h1,.header h2 {
+    color: white;
+}
+
+
+.header h1 {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+.header h2 {
+    font-family:'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+.header em {
+    font-style: italic;
+}
+
+/*About Our Agency*/
+
+#about-our-agency h2 {
+    font-family:'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+#about-our-agency p {
+    font-family: sans-serif;
+    color: #636363;
+    font-size: 1rem;
+}
+
+/*number*/
+
+#number p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+#number .pt-5 {
+    padding-top: 6rem!important;
+}
+
+#number .pb-5  {
+    padding-bottom: 6rem!important;
+}
+/*Best Projects*/
+#best-projects .p-5{
+    padding:4.2rem!important;
+}
+
+#best-projects h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+#best-projects p{
+    font-family: sans-serif;
+    color: #636363;
+    font-size: 0.9rem;
+}
+
+#best-projects h5{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#best-projects span{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+#best-projects .card {
+    border: transparent;
+}
+/*Carousel*/
+
+#carouselExampleSlidesOnly p {
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+#carouselExampleSlidesOnly span {
+    color:white;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+#carouselExampleSlidesOnly .carousel-indicators li {
+    border: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+
+}
+
+#carouselExampleSlidesOnly .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+
+}
+
+#carouselExampleSlidesOnly .pt-5 {
+    padding-top: 7rem!important;
+}
+
+/*François intégration*/
+
+.bg-primary{
+    background-color: #f6f6f6!important;
+}
+
+.bg-dark {
+    background-color: #0c0c0c!important;
+}
+
+.text-primary {
+    color: #909090!important;
+}
+
+h5{
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.WorkSans{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.date{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+    margin-bottom: -3rem;
+}
+
+#carouselExampleIndicators .carousel-indicators li {
+    border: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+
+}
+.vignette{
+    width: 90px;
+    height: 30px;
+    padding-top: 2px;
+    position: relative;
+    top: -40px;
+    left: 2px;
+}
+
+.width-c {
+    width: 21.5rem;
+}
+
+#carouselExampleIndicators .card-img-top {
+    height: 240px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #best-projects .p-5 {
+        padding: 3rem!important;
+    }
+    .width-c {
+        width: 18.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        margin: 1rem 0.6rem;
+    }
+
+    .header h2 {
+        font-size: 3rem;
+    }
+
+    .card-columns {
+        column-count: 2;
+    }
+
+    #best-projects .p-5 {
+        padding: 3.8rem!important;
+    }
+
+    .width-c {
+        width: 14rem;
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header h2 {
+        font-size: 2rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        position: absolute;
+        top: 2rem;
+        right: 0rem;
+        width: max-content;
+        background-color: #636363;
+    }
+    
+    .header li {
+        text-align: end;
+        font-size: 2rem;
+    }
+
+    .card-columns {
+        column-count: 2;
+    }
+
+    #best-projects .p-5 {
+        padding:1.5rem!important;
+    }
+
+    .width-c {
+        width: 15.5rem;
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header h2 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        position: absolute;
+        top: 2rem;
+        right: 0rem;
+        width: 450px;
+        background-color: #636363;
+    }
+
+    .header li {
+        text-align: end;
+        font-size: 2rem;
+    }
+
+    #carouselExampleSlidesOnly p {
+        color:white;
+        font-family: 'Playfair Display', serif;
+        font-size: 1rem;
+    }
+
+    #carouselExampleSlidesOnly .pt-5 {
+        padding-top: 5em!important;
+    }
+}
